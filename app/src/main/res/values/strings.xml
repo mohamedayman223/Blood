@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Blood Bank</string>
+    <string name="phone">phone</string>
+    <string name="password">password</string>
+    <string name="forget_password">forget password</string>
+    <string name="remember_me">remember me</string>
+    <string name="login">login</string>
+    <string name="register">Don‘t have email? register now</string>
+    <string name="create_new_account">create new account</string>
+    <string name="user_name">user name</string>
+    <string name="email">email</string>
+    <string name="birth_date">birth date</string>
+    <string name="last_date_for_donation">last date for donation</string>
+    <string name="governorate">governorate</string>
+    <string name="country">country</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="register_btn">register</string>
+    <string name="send">send</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="change">change</string>
+    <string name="validation_code">validation code</string>
+    <string name="new_password">new password</string>
+    <string name="ensure_new_password">ensure new password</string>
+    <string name="phone_empty">phone field is empty</string>
+    <string name="phone_numbers">phone must be 11 numbers</string>
+    <string name="phone_start">phone number must starts with 01</string>
+    <string name="password_empty">password field is empty</string>
+    <string name="password_nums">password numbers must at least 6 numbers</string>
+
+    <string-array name="blood">
+        <item>A+</item>
+        <item>A-</item>
+        <item>B+</item>
+        <item>B-</item>
+        <item>O+</item>
+        <item>O-</item>
+        <item>AB+</item>
+        <item>AB-</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="aricles">Articles</string>
+    <string name="donations">Donations</string>
+    <string name="edit">edit</string>
+    <string name="edit_data">edit data</string>
+    <string name="notify_your_request">notify your request</string>
+    <string name="notifications">Notifications</string>
+    <string name="hospital">hospital</string>
+    <string name="statues">statues</string>
+    <string name="enterFeild">enter field</string>
+    <string name="email_pattern">email pattern not correct!</string>
+    <string name="selectDate">please select date!</string>
+    <string name="phoneNumbers">phone number must 11 numbers</string>
+    <string name="pass_numbers">password must be at least 6 numbers</string>
+    <string name="passwordsNotSame">two passwords not the same!</string>
+    <string name="blood_type">blood type</string>
+    <string name="last_donation_date">Last Donations Date</string>
+</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/bottomNav_home"
+        android:icon="@drawable/ic_home"
+        android:title="home"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/bottomNav_users"
+        android:icon="@drawable/ic_user"
+        android:title="user"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottomNav_notification"
+        android:icon="@drawable/ic_notification"
+        android:title="notification"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/bottomNav_more"
+        android:icon="@drawable/ic_more"
+        android:title="notification"
+        app:showAsAction="ifRoom" />
+</menu>

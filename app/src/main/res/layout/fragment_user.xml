@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context=".ui.fragments.homeCycleFrg.UsersFragment.UserFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@color/colorPrimary"
+            android:layout_height="?attr/actionBarSize">
+
+            <TextView
+                style="@style/textViewsStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/edit_data"
+                android:layout_centerInParent="true"
+                />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/userNameET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/user_name" />
+
+        <EditText
+            android:id="@+id/emailET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/email" />
+
+        <EditText
+            android:id="@+id/birthDateET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/birth_date" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/bloodSpinner_UserFrg"
+            style="@style/spinnerStyle" />
+
+        <EditText
+            android:id="@+id/lastDateET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/last_date_for_donation" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/governorateSpinner_UserFrg"
+            style="@style/spinnerStyle" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/countrySpinner_UserFrg"
+            style="@style/spinnerStyle" />
+
+        <EditText
+            android:id="@+id/phoneET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/phone" />
+
+        <EditText
+            android:id="@+id/passwordET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/password" />
+
+        <EditText
+            android:id="@+id/confirmPassET_UserFrg"
+            style="@style/editTextStyle"
+            android:hint="@string/confirm_password" />
+
+        <Button
+            android:id="@+id/editUserFrg"
+            style="@style/buttonTextStyle"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="@string/edit"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/colorWhite" />
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <string name="phone">الجوال</string>
+    <string name="password">كلمة المرور</string>
+    <string name="forget_password">هل نسيت كلمة المرور</string>
+    <string name="remember_me">تذكرنى</string>
+    <string name="login">دخول</string>
+    <string name="register">لاتملك حساب؟ سجل الان</string>
+    <string name="create_new_account">انشاء حساب جديد</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="birth_date">تاريخ الميلاد</string>
+    <string name="last_date_for_donation">اخر تاريخ للتبرع</string>
+    <string name="governorate">المحافظة</string>
+    <string name="country">المدينة</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="register_btn">تسجيل</string>
+    <string name="user_name">الاسم</string>
+    <string name="send">إرسال</string>
+    <string name="validation_code">كود التحقق</string>
+    <string name="new_password">كلمة السر الجديدة</string>
+    <string name="ensure_new_password">تأكيد كلمة السر الجديدة</string>
+    <string name="change">تغيير</string>
+    <string name="phone_empty">phone field is empty</string>
+    <string name="phone_numbers">phone must be 11 numbers</string>
+    <string name="phone_start">phone number must starts with 01</string>
+    <string name="password_empty">password field is empty</string>
+    <string name="password_nums">password numbers must at least 6 numbers</string>
+    <string name="aricles">Articles</string>
+    <string name="edit">edit</string>
+    <string name="edit_data">edit data</string>
+    <string name="notify_your_request">notify your request</string>
+    <string name="notifications">Notifications</string>
+    <string name="hospital">hospital</string>
+    <string name="statues">statues</string>
+    <string name="enterFeild">enter field</string>
+    <string name="email_pattern">email pattern not correct!</string>
+    <string name="selectDate">please select date!</string>
+    <string name="phoneNumbers">phone number must 11 numbers</string>
+    <string name="pass_numbers">password must be at least 6 numbers</string>
+    <string name="passwordsNotSame">two passwords not the same!</string>
+    <string name="blood_type">blood type</string>
+    <string name="last_donation_date">Last Donations Date</string>
+</resources>
